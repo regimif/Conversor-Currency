@@ -1,0 +1,94 @@
+:root{
+    --body-bg-color: #e1f7c9;
+    --main-bg-color: #fafff4;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--body-bg-color);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50vh;
+    min-width: 40rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: var(--main-bg-color);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title{
+    margin-top: 1.5rem;
+}
+
+
+#user-value{
+    display: flex;
+    padding: 1rem;
+    width: 20rem;
+    height: 2.5rem
+}
+
+.select-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#from-currency, #to-currency{
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2rem;
+}
+
+.img, #result, #button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+    display: flex;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#button{
+    font-weight: bold;
+    display: flex;
+    background: #d8dbd7;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 3rem;
+    transition: all ease 0.5s;
+}
+
+#button:hover{
+    background: #c1c4bf;
+}

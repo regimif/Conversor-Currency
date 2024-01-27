@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/responsiveness.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="main-container">
+        <div class="title">
+            <h1>Currency Converter</h1>
+        </div>
+
+
+
+        <form novalidate class="form">
+            <input type="number" id="user-value">
+            <div class="select-container">
+                <select name="from-currency" id="from-currency"></select>
+                <select name="to-currency" id="to-currency"></select>
+            </div>
+            <div class="img">
+                <img src="assets/arrow-converter.png" alt="">
+            </div>
+            <div class="api-result">
+                <p id="result">Value:</p>
+            </div>
+            <button type="submit" id="button">Convert</button>
+        </form>
+
+
+
+    </main>
+
+<script type="module" src="api.js"></script>
+
+
+</body>
+</html>

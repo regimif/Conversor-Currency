@@ -1,0 +1,26 @@
+@media (max-width: 730px) {
+    .img{
+        display: none;
+    }
+    main{
+        min-height: 0;
+        padding: 1.5rem;
+    }
+
+    .title{
+        margin-top: 0;
+    }
+    #result{
+        width: 300px;
+    }
+}
+
+@media (max-width: 650px) {
+    main{
+        min-width: 50%;
+    }
+
+    .title{
+        font-size: 0.8rem;
+    }
+}
