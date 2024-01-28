@@ -8,7 +8,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/responsiveness.css">
-
+    <link rel="stylesheet" href="/aside.css">
+    
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +31,7 @@
                 <select name="to-currency" id="to-currency"></select>
             </div>
             <div class="img">
-                <img src="assets/arrow-converter.png" alt="">
+                <img src="assets/arrow-converter.png" alt="arrow-converter">
             </div>
             <div class="api-result">
                 <p id="result">Value:</p>
@@ -38,9 +39,23 @@
             <button type="submit" id="button">Convert</button>
         </form>
 
-
-
     </main>
+
+    <aside class="about-me">
+        <p>About Us:</p>
+        <div class="reginaldo">
+            <a href="https://www.linkedin.com/in/reginaldoisidoro/">
+                <img src="assets/about-me-logo.png" alt="about-me-reginaldo">
+                <span>Reginaldo</span>
+            </a>
+        </div>
+        <div class="chrystian">
+            <a href="https://www.linkedin.com/in/chrystian-carlos-453949277/">
+                <img src="assets/about-me-logo.png" alt="about-me-chrystian">
+                <span>Chrystian</span>
+            </a>
+        </div>
+    </aside>
 
 <script type="module" src="api.js"></script>
 
