@@ -5,6 +5,7 @@
     --hover-button-bg-color: #c1c4bf;
 }
 
+
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -35,6 +36,10 @@ main{
     background-color: var(--main-bg-color);
 }
 
+.title{
+    margin-top: 1.5rem;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -43,11 +48,8 @@ form{
     width: 100%;
 }
 
-.title{
-    margin-top: 1.5rem;
-}
 
-
+/* Input */
 #user-value{
     display: flex;
     padding: 1rem;
@@ -61,6 +63,7 @@ form{
     width: 100%;
 }
 
+/* Currency boxes */
 #from-currency, #to-currency{
     display: flex;
     text-align: center;
@@ -70,19 +73,16 @@ form{
     height: 2rem;
 }
 
-.img, #result, #button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
+/* Result display */
 #result{
     display: flex;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
 
+
+/* Button */
 #button{
     font-weight: bold;
     display: flex;
@@ -96,4 +96,13 @@ form{
 
 #button:hover{
     background: var(--hover-button-bg-color);
+}
+
+
+/* Setting individual display type */
+.img, #result, #button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

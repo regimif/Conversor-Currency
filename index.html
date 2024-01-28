@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Converter</title>
+    <meta name="author" content="Reginaldo Isidoro e Chrystian Carlos">
+    <link rel="icon" href="assets/arrow-converter.png">
+    <title>Currency Converter</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/responsiveness.css">
-    <link rel="stylesheet" href="/aside.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/responsiveness.css">
+    <link rel="stylesheet" href="/css/aside.css">
     
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,13 +19,11 @@
 </head>
 <body>
 
+    <!-- Main Container -->
     <main class="main-container">
         <div class="title">
             <h1>Currency Converter</h1>
         </div>
-
-
-
         <form novalidate class="form">
             <input type="number" id="user-value">
             <div class="select-container">
@@ -38,9 +38,9 @@
             </div>
             <button type="submit" id="button">Convert</button>
         </form>
-
     </main>
 
+    <!-- About Me section -->
     <aside class="about-me">
         <p>About Us:</p>
         <div class="reginaldo">
@@ -57,8 +57,9 @@
         </div>
     </aside>
 
-<script type="module" src="api.js"></script>
 
+<!-- JS script -->
+<script type="module" src="api.js"></script>
 
 </body>
 </html>
