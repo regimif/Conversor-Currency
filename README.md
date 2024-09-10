@@ -56,5 +56,8 @@ I welcome contributions to Conversor Currency! If you would like to contribute, 
 
 Thank you for your interest in contributing!
 
+## Special Thanks:
+I would like to thank my friend [Chrystian](https://github.com/chrystian21) for his help in creating this project! Cheers! 🎉
+
 ## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
