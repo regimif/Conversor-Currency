@@ -48,6 +48,7 @@ fetch(`https://v6.exchangerate-api.com/v6/1ab91aca9f30ad177eb1a675/latest/USD`)
       .addEventListener("click", convertCurrency);
     window.addEventListener("load", convertCurrency);
 
+    // Troca entre moedas ao clicar na imagem de troca
     document
       .getElementById("swap-currencies")
       .addEventListener("click", () => {
