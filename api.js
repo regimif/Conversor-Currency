@@ -47,6 +47,15 @@ fetch(`https://v6.exchangerate-api.com/v6/1ab91aca9f30ad177eb1a675/latest/USD`)
       .querySelector("#button")
       .addEventListener("click", convertCurrency);
     window.addEventListener("load", convertCurrency);
+
+    document
+      .getElementById("swap-currencies")
+      .addEventListener("click", () => {
+        const temp = fromDropDown.value;
+        fromDropDown.value = toDropDown.value;
+        toDropDown.value = temp;
+        convertCurrency(); // Recalcula após a troca
+      });
   });
 
 // Evitar que a página recarregue ao enviar o formulário
