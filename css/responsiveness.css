@@ -1,6 +1,5 @@
 @media (max-width: 730px) {
     .img{
-        display: none;
     }
     main{
         min-height: 0;

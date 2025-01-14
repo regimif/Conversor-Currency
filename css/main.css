@@ -106,3 +106,13 @@ form{
     justify-content: center;
     align-items: center;
 }
+
+#swap-currencies{
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+#swap-currencies:hover{
+    transform: rotate(2deg);
+}
+
