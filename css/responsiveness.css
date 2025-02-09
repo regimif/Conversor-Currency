@@ -17,4 +17,9 @@
     #swap-currencies:hover{
         transform: none;
     }
+
+    aside{
+        border-radius: 1rem 0 1rem 0;
+        margin-top: 2rem;
+    }
 }
