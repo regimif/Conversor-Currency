@@ -2,18 +2,33 @@
     --aside-bg-color: #f8f9fa;
 }
 
-
-.follow-us img{
-    height: 1.5rem;
-}
-
 aside{
     position: absolute;
-    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     background-color: var(--aside-bg-color);
+    width: 10rem;
+    border-radius: 1rem 0 0 0;
     padding: 1rem;
     bottom: 0%;
     right: 0%;
+}
+
+aside > *:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.follow-us a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.follow-us img{
+    height: 1.5rem;
 }
 
 aside p{
