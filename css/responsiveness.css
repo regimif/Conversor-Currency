@@ -1,11 +1,14 @@
-@media (max-width: 730px) {
+@media (max-width: 768px) {
     main{
         min-height: 0;
         padding: 1.5rem;
+        min-width: 50%;
     }
 
     .title{
         margin-top: 0;
+        font-size: 0.8rem;
+
     }
     #result{
         width: 300px;
@@ -13,15 +16,5 @@
 
     #swap-currencies:hover{
         transform: none;
-    }
-}
-
-@media (max-width: 650px) {
-    main{
-        min-width: 50%;
-    }
-
-    .title{
-        font-size: 0.8rem;
     }
 }
