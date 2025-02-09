@@ -13,12 +13,12 @@ Alternatively, you can view the live version hosted on `Vercel` [here](https://c
 ## Screenshots:
 **Desktop Version:**
 
-![Desktop Screenshot](https://github.com/user-attachments/assets/21f9a0c9-f5fc-48e0-ae20-0aa7a28c622b)
+![Desktop Screenshot](https://github.com/user-attachments/assets/388e47be-3a36-4038-bfe3-b3be08c4375f)
 
 
 **Mobile Version:**
 
-![Mobile Screenshot](https://github.com/user-attachments/assets/2bf54656-ddfa-479d-a336-9bcc1a4d2ae0)
+![Mobile Screenshot](https://github.com/user-attachments/assets/e8777a7b-2fbb-4482-87b7-36c85f52d143)
 
 
 ## Usage:
